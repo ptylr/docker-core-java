@@ -13,7 +13,9 @@ https://www.linkedin.com/in/ptylr/
 Extends ptylr/docker-core-ubuntu with OpenJDK 22 for additional chained images.
 
 ```
-docker push ptylr/docker-core-java
+ubuntu:22.04
+  -> docker-core-ubuntu
+    -> docker-core-java
 ```
 
 # Licence
